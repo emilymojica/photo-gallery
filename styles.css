@@ -1,0 +1,39 @@
+img {
+  width: 200px;
+  height: 150px;
+  object-fit:cover;
+  margin: 10px;
+}
+h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Barrio', cursive;
+  font-size: 30px;
+}
+.rowone {
+  display:flex;
+  justify-content: center;
+}
+.rowtwo {
+  display:flex;
+  justify-content: center;
+}
+.rowthree {
+  display:flex;
+  justify-content: center;
+}
+/* .all {
+ display: flex;
+} */
+
+body {
+  background-color: grey;
+}
+@media screen and (max width: 500px) {
+  img {
+    width: 100px;
+    height: 50px;
+  }
+}
